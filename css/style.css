@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700);
+
+/* ///// Global ///// */
+
+body {
+
+  background: url(../images/giving-tree.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+
+  font: 60px 'Fredericka the Great' serif;
+  color: rgb(81,142,51);
+}
+
+/* ///// Chat History ///// */
+
+.screen {
+
+  height: 500px;
+  width: 450px;
+  background: rgba(87,164,26,.5);
+  margin: 20px 0;
+  overflow: scroll;
+
+}
+
+#log {
+
+  list-style-image: url(../images/apple.png);
+
+}
+
+.command, .action, .prompt {
+
+  font: 20px 'Cabin Sketch', serif;
+}
+
+.command {
+
+  color: red;
+  font-weight: bold;
+}
+
+.action {
+
+  color: rgb(81,142,51);
+  font-style: italic;
+
+}
+
+.prompt {
+  color: white;
+}
+
+/* ///// Prompt ///// */
+
+#prompt {
+
+  display: inline-block;
+  width: 440px;
+  height: 25px;
+  background: rgba(87,164,26,.5);
+  border-style: solid;
+  border-color: rgb(81,142,51);
+  font: 16px 'Cabin Sketch', serif;
+  color: rgb(81,142,51);
+}
+
+::-webkit-input-placeholder {
+   color: red;
+}
